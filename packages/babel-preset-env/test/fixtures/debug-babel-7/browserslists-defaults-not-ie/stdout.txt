@@ -15,19 +15,20 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  proposal-class-static-block { firefox < 93, ios, safari, samsung }
-  proposal-private-property-in-object { ios < 15, safari < 15, samsung }
-  proposal-class-properties { ios < 15 }
+  proposal-class-static-block { firefox < 93, ios < 16.4, safari < 16.4, samsung < 17 }
+  proposal-private-property-in-object { ios < 15, safari < 15, samsung < 16 }
+  proposal-class-properties { ios < 14.5 }
   proposal-private-methods { ios < 15, safari < 15 }
   proposal-numeric-separator { ios < 13 }
   proposal-logical-assignment-operators { ios < 14 }
   proposal-nullish-coalescing-operator { ios < 13.4 }
-  proposal-optional-chaining { ios < 13.4, samsung }
+  proposal-optional-chaining { ios < 13.4, samsung < 16 }
   syntax-json-strings
   syntax-optional-catch-binding
-  transform-parameters { ios, safari }
+  transform-parameters { ios < 16.3, safari < 16.3 }
   syntax-async-generators
   syntax-object-rest-spread
+  proposal-unicode-property-regex { android, chrome, edge, firefox < 134, ios, opera, safari, samsung }
   transform-template-literals { ios < 13 }
   proposal-export-namespace-from { ios, safari }
   transform-modules-commonjs

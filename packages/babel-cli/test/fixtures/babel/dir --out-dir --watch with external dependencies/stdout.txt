@@ -1,6 +1,3 @@
-Successfully compiled 2 files with Babel (123ms).
-EXECUTOR lib/index.js "let str = /"Hi :)/";"
-EXECUTOR lib/main.js "console.log(/"Hi :)/");"
-Successfully compiled 2 files with Babel (123ms).
-EXECUTOR lib/index.js "let str = /"Updated!/";"
-EXECUTOR lib/main.js "console.log(/"Updated!/");"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating

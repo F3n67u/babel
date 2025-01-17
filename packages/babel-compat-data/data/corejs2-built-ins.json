@@ -82,6 +82,7 @@
     "node": "11",
     "ios": "12",
     "samsung": "10",
+    "rhino": "1.7.15",
     "electron": "4.0"
   },
   "es6.array.for-each": {
@@ -108,6 +109,7 @@
     "node": "6.5",
     "ios": "10",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "1.2"
   },
   "es7.array.includes": {
@@ -279,6 +281,7 @@
     "node": "6.5",
     "ios": "10",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "1.2"
   },
   "es6.date.now": {
@@ -1030,6 +1033,7 @@
     "node": "6.5",
     "ios": "10",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "1.2"
   },
   "es7.promise.finally": {
@@ -1041,6 +1045,7 @@
     "node": "10",
     "ios": "11.3",
     "samsung": "8",
+    "rhino": "1.7.15",
     "electron": "3.0"
   },
   "es6.reflect.apply": {
@@ -1206,6 +1211,7 @@
     "node": "6",
     "ios": "9",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "0.37"
   },
   "es6.regexp.match": {
@@ -1263,6 +1269,7 @@
     "node": "6",
     "ios": "10",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "1.1"
   },
   "es6.set": {
@@ -1773,6 +1780,7 @@
     "node": "6.5",
     "ios": "9",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "1.2"
   },
   "es6.weak-set": {
@@ -1784,6 +1792,7 @@
     "node": "6.5",
     "ios": "9",
     "samsung": "5",
+    "rhino": "1.7.15",
     "electron": "1.2"
   }
 }

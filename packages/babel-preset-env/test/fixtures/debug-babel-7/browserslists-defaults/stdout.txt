@@ -16,21 +16,21 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  proposal-class-static-block { firefox < 93, ie, ios, safari, samsung }
-  proposal-private-property-in-object { ie, ios < 15, safari < 15, samsung }
-  proposal-class-properties { ie, ios < 15 }
+  proposal-class-static-block { firefox < 93, ie, ios < 16.4, safari < 16.4, samsung < 17 }
+  proposal-private-property-in-object { ie, ios < 15, safari < 15, samsung < 16 }
+  proposal-class-properties { ie, ios < 14.5 }
   proposal-private-methods { ie, ios < 15, safari < 15 }
   proposal-numeric-separator { ie, ios < 13 }
   proposal-logical-assignment-operators { ie, ios < 14 }
   proposal-nullish-coalescing-operator { ie, ios < 13.4 }
-  proposal-optional-chaining { ie, ios < 13.4, samsung }
+  proposal-optional-chaining { ie, ios < 13.4, samsung < 16 }
   proposal-json-strings { ie }
   proposal-optional-catch-binding { ie }
-  transform-parameters { ie, ios, safari }
+  transform-parameters { ie, ios < 16.3, safari < 16.3 }
   proposal-async-generator-functions { ie }
   proposal-object-rest-spread { ie }
   transform-dotall-regex { ie }
-  proposal-unicode-property-regex { ie }
+  proposal-unicode-property-regex { android, chrome, edge, firefox < 134, ie, ios, opera, safari, samsung }
   transform-named-capturing-groups-regex { ie }
   transform-async-to-generator { ie }
   transform-exponentiation-operator { ie }

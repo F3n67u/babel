@@ -15,9 +15,9 @@ Using targets:
 Using modules transform: auto
 
 Using plugins:
-  proposal-class-static-block { firefox < 93, ios, safari, samsung }
-  proposal-private-property-in-object { ios < 15, safari < 15, samsung }
-  proposal-class-properties { ios < 15 }
+  proposal-class-static-block { firefox < 93, ios < 16.4, safari < 16.4, samsung < 17 }
+  proposal-private-property-in-object { ios < 15, safari < 15, samsung < 16 }
+  proposal-class-properties { ios < 14.5 }
   proposal-private-methods { ios < 15, safari < 15 }
   proposal-numeric-separator { ios < 13 }
   proposal-logical-assignment-operators { ios < 14 }
@@ -27,8 +27,9 @@ Using plugins:
   syntax-optional-catch-binding
   syntax-async-generators
   syntax-object-rest-spread
+  proposal-unicode-property-regex { android, chrome, edge, firefox < 134, ios, opera, safari, samsung }
   proposal-export-namespace-from { ios, safari }
-  bugfix/transform-safari-id-destructuring-collision-in-function-expression { ios, safari }
+  bugfix/transform-safari-id-destructuring-collision-in-function-expression { ios < 16.3, safari < 16.3 }
   bugfix/transform-tagged-template-caching { ios < 13 }
   transform-modules-commonjs
   proposal-dynamic-import
